@@ -587,4 +587,5 @@ Based on the codebase structure, potential enhancements:
 
 ---
 
-*Last Updated: Based on current codebase analysis*
+- [Bfloat Go Codebase](file:///Users/v1b3m/Dev/bfloat/bfloat-go/)
+- [About backend and web app](../bfloat-app-engineer/README.md)
