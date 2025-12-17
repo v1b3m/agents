@@ -519,5 +519,5 @@ Based on `Features` file, planned enhancements include:
 
 ---
 
-- [Bfloat App Engineer Codebase](file:///Users/v1b3m/Dev/bfloat/bfloat-app-engineer/)
+- [Bfloat App Engineer Local Codebase](file:///Users/v1b3m/Dev/bfloat/bfloat-app-engineer/)
 - [About Mobile Version of this app](../bfloat-go/README.md)

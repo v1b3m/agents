@@ -18,3 +18,5 @@ Agents can be trained to perform a variety of goals within the Sales Explorer gy
 - **List Management:** Saving qualified leads and accounts to organized lists for future reference.
 - **Profile Navigation:** Navigating to and parsing information from lead and account profile pages.
 - **End-to-End Prospecting:** Completing a full workflow from defining a search query to generating a curated list of qualified leads.
+
+[sales-explorer local codebase](file:///Users/v1b3m/Dev/Turing/dashboard-gym/)

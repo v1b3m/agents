@@ -8,3 +8,5 @@ Here's a breakdown of its core functions:
 *   **For Developers:** Turing provides opportunities for top developers worldwide to secure long-term, full-time remote positions with competitive salaries, career growth, and the chance to work on cutting-edge projects for top U.S. companies without needing to relocate. Developers must pass a comprehensive vetting process to join Turing's network.
 
 In essence, Turing aims to streamline and democratize the hiring process for high-quality remote tech talent globally, offering a reliable solution for both companies seeking skilled engineers and developers seeking stable, rewarding remote careers.
+
+[turing.com](https://turing.com)
