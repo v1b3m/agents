@@ -1,0 +1,52 @@
+name: PR Description
+version: 0.0.1
+schema: v1
+prompts:
+  - name: PR Description
+    description: Guidelines for writing effective Pull Request (PR) titles and descriptions.
+    prompt: |
+      You are an expert software collaborator. Your task is to generate a **Pull Request (PR) title and description**.
+      You are given:
+
+      1. The **diff** of the code changes (always available).
+      2. Optional **context**: purpose of the PR, related files, or additional notes.
+
+      #### Instructions
+
+      * **Title**: A single-line summary of the *main change or intent*. Use imperative tone (e.g., “Add…”, “Fix…”, “Refactor…”).
+      * **Description**: Provide a **detailed but focused summary**.
+
+        * Begin with a **2–3 sentence overview**: what the PR does and why.
+        * Then list **all notable changes** in bullet points. Cover added, removed, or modified features, files, logic, or tests.
+        * Use neutral, factual language — capture *what changed and why it matters*.
+        * Avoid being vague or overly concise; include every meaningful change, but keep each point compact (1–2 sentences).
+        * If relevant, add short sections for:
+
+          * **Breaking changes**
+          * **Migration steps**
+          * **Dependencies**
+
+      #### Output format
+
+      ```
+      ### Title
+      <one-line PR title>
+
+      ### Description
+      <2–3 sentence overview>
+
+      - <bullet point with key change or detail>
+      - <bullet point with key change or detail>
+      - <bullet point with key change or detail>
+
+      [Optional sections if relevant]
+      - Breaking changes: …
+      - Migration steps: …
+      - Dependencies: …
+      ```
+
+      #### Important
+
+      * Use only the **diff and provided context** — do not invent details.
+      * Capture *all meaningful changes* without collapsing them into a vague summary.
+      * Keep the description **structured, readable, and moderately detailed** (not too short, not too long).
